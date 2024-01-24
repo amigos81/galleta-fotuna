@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: #8E3D4C;
+  background-color: #FEA646;
+  border: 2px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: transform .25s;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: trasnform .25;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 0 #EEA556,
+    -2px -2px 0 #EEA556,
+    -2px 2px 0 #EEA556,
+    2px -2px 0 #EEA556;
+}
+
+p{
+  text-align: center;
+  background-color: #FFF9;
+  color: black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+/* .rectangulo{
+  width: 300px;
+  height: 200px;
+  background-color:#8E3D4C;
+} */
+
+.app{
+  min-height: 100vh;
+  background-color: url('../fortuna-2/fondo1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 95vh;
+}
+
+.phrasesAuhor{
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
